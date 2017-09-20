@@ -1,0 +1,31 @@
+body{
+    width: 340px;
+}
+img {
+    width: 300px;
+    border-radius: 5px;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li > span{
+    font-weight: bold;
+}
+
+.interesting-fact{
+    font-style: italic;
+}
+.wrapper{
+    width: 300px;
+    padding: 0 20px 0 20px;
+    box-shadow:  21px 20px 30px -12px rgba(189,185,189,1);
+}
+.wrapper, img, .info{
+    border: 1px solid darkgray;
+
+}
+.info{
+    padding: 10px;
+    margin: 10px 0;
+}
